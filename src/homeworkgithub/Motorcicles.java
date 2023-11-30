@@ -28,15 +28,19 @@ public class Motorcicles {
         numberWheels = 2;
         gasDeposit = 12;
       
+<<<<<<< HEAD
     public void drive(double direction) {
         
         System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
+=======
+    
+        System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" );
+>>>>>>> Drivetest2
         
         //another println method:
-        System.out.println(String.format("The %s %s is driving at %.0f degrees" ,brand, model,gasDeposit, direction));
+        System.out.println(String.format("The %s %s is driving at %.0f degrees" ,brand, model,gasDeposit));
         
-        //Second form:
-        System.out.printf("The %s %s is driving at %.0f degrees" ,brand, model, gasDeposit, direction );
+
         
         
         
