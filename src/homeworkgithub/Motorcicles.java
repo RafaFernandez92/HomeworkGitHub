@@ -28,20 +28,20 @@ public class Motorcicles {
         numberWheels = 2;
         gasDeposit = 12;
       
-    public void drive(double direction) {
-        
-        System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
-        
-        //another println method:
-        System.out.println(String.format("The %s %s is driving at %.0f degrees" ,brand, model,gasDeposit, direction));
-        
-        //Second form:
-        System.out.printf("The %s %s is driving at %.0f degrees" ,brand, model, gasDeposit, direction );
-        
-        
-        
-    
+//    public void print(String direction) {
+//        
+//        System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
+//        
+//        //another println method:
+//        System.out.println(String.format("The %s %s is driving at %.0f degrees" ,brand, model,gasDeposit, direction));
+//        
+//        //Second form:
+//        System.out.printf("The %s %s is driving at %.0f degrees" ,brand, model, gasDeposit, direction );
+//   }
+            System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
+
     }
+
     
 
     
