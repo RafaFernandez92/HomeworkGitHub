@@ -10,4 +10,18 @@ package homeworkgithub;
  */
 public class Motorcicles {
     
+    String brand;
+    String model;
+    int numberWheels;
+    int gasDeposit;
+    
+      
+    public void drive(String direction) {
+        
+        System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
+    }
+    
+
+    
+    
 }
