@@ -22,9 +22,13 @@ public class Motorcicles {
         this.gasDeposit = gasDeposit;
     }
     
-    
+    public Motorcicles() {
+        brand = "Mitsubishi";
+        model = "Ninja 500";
+        numberWheels = 2;
+        gasDeposit = 12;
       
-    public void drive(String direction) {
+    public void drive(double direction) {
         
         System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
         
