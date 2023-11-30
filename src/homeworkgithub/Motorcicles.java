@@ -38,8 +38,8 @@ public class Motorcicles {
 //        //Second form:
 //        System.out.printf("The %s %s is driving at %.0f degrees" ,brand, model, gasDeposit, direction );
 //   }
-            System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going" + direction);
-
+            System.out.println("The motorcicle" + brand + "model" + model + "with" + gasDeposit + "Lts in total is going");
+            System.out.println(String.format("The %s %s is driving at %.0f degrees" ,brand, model,gasDeposit));
     }
 
     
